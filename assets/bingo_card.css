@@ -1,0 +1,38 @@
+body {
+    background-color: teal;
+    background-image: url("./bingo_bg.png");
+    background-size: cover;
+    padding:0;
+    margin:0;
+}
+
+#bingo-card {
+    height: 100vh;
+    width: 100vw;
+    border-spacing: 0;
+}
+
+.row {
+    height: 20vh;
+    max-height: 20vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cell {
+    color: white;
+    padding: 2%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 175%;
+    text-wrap: wrap;
+    text-align: center;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    max-width: 20%;
+    width: 20%;
+
+    margin: 0;
+}
